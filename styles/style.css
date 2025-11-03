@@ -32,6 +32,12 @@ html {
   white-space: nowrap;
 }
 
+button,
+a,
+label {
+  cursor: pointer;
+}
+
 h1,
 h2,
 h3,
@@ -72,7 +78,6 @@ ol {
 
 .content{
   display: flex;
-  height: 535px;
   width: 1140px;
   flex-direction: row;
   align-items: flex-end;
@@ -94,9 +99,6 @@ ol {
   gap: 30px;
 }
 
-.content__list-item{
-
-}
 .content__list-container{
   position: relative;
   display: flex;
@@ -139,6 +141,7 @@ ol {
   margin-bottom: 16px;
 }
 .result__video{
+  object-position: center;
   object-fit: cover;
   height: 100%;
   width: 100%;
@@ -190,7 +193,6 @@ ol {
 
 .content__video-card-title{
   width: 196px;
-  height: 30px;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
@@ -321,11 +323,7 @@ ol {
   outline-offset: 2px;
 }
 
-button,
-a,
-label {
-  cursor: pointer;
-}
+
 
 .content__card-link:hover{
   text-decoration: underline;
