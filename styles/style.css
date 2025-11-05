@@ -75,7 +75,6 @@ ol {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  padding-bottom: 8px;
 }
 
 
@@ -197,7 +196,7 @@ ol {
   display: flex;
   flex-direction: column;
   width: 399px;
-  height: 307px;
+  height: 298px;
   overflow-y: auto;
   gap: 30px;
 }
@@ -327,7 +326,7 @@ ol {
 
 .more-button {
   inline-size: 100%;
-  block-size: 34px;
+  padding: 6px 0;
 }
 
 .button:hover {
